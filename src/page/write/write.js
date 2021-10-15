@@ -60,7 +60,7 @@ const Write = () => {
             </div>
             <div className='writeFormGroup'>
                <textarea 
-                  placeholder='Tell me your story...' 
+                  placeholder='Tell me your storyy...' 
                   className='writeInput writeText' 
                   onChange={(e)=> setDesc(e.target.value)}
                   type='text'>
