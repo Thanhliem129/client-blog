@@ -1,0 +1,58 @@
+.register{
+   height: calc(100vh - 50px);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background:  url('https://wallpaperbat.com/img/211394-harry-potter-wallpaper.jpg');
+   background-size:cover ;
+}
+.registerTitle{
+   font-size: 50px;
+   color: lightcoral;
+}
+.registerForm{
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   width: 30vw;
+}
+.registerLabel{
+   color: white;
+   font-size: 18px;
+}
+
+.registerForm > label{
+   margin: 10px 0px;
+}
+
+.registerInput{
+   padding: 10px;
+   background-color: white;
+   border: none;
+   height: 25px;
+}
+.registerInput:focus{
+   outline: none;
+
+}
+.registerButton{
+   margin-top: 20px;
+   cursor: pointer;
+   background-color: teal;
+   border: none;
+   border-radius: 5px;
+   padding: 10px;
+   font-size: 16px;
+   color: white;
+}
+.registerLoginButton{
+   position: absolute;
+   top: 80px;
+   right: 20px;
+   background-color: lightcoral;
+   border: none;
+   padding: 10px;
+   border-radius: 5px;
+   color: white;
+}

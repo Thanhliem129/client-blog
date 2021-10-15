@@ -1,0 +1,81 @@
+.setting{
+   display: flex;
+}
+.settingWrapper{
+   flex: 9;
+   padding: 20px;
+}
+.settingTitle{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.settingUpdateTitle{
+   font-size: 30px;
+   margin-bottom: 20px;
+   color: lightcoral;
+}
+.settingDeleteTitle{
+   color: red;
+   font-size: 14px;
+   cursor: pointer;
+}
+.settingForm{
+   display: flex;
+   flex-direction: column;
+}
+.settingPP{
+   display: flex;
+   align-items: center;
+   margin: 10px 0px;
+
+}
+
+.settingPPImg{
+   width: 70px;
+   height: 70px;
+   border-radius: 20px;
+   object-fit: cover;
+}
+.settingPPIcon{
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+   background-color: lightcoral;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   margin-left: 10px;
+   cursor: pointer;
+}
+.settingForm > label{
+   font-size: 22px;
+   margin-top: 20px;
+}
+.settingForm > input {
+   color: gray;
+   margin: 10px 0px;
+   height: 30px;
+   border: none;
+   border-bottom: 1px solid lightgray;
+
+}
+.settingForm > input:focus{
+   outline: none;
+}
+.settingSubmit{
+   width: 150px;
+   align-self: center;
+   border: none;
+   border-radius: 10px;
+   color: white;
+   background-color: teal;
+   padding: 10px;
+   font-size: 16px;
+   margin-top: 20px;
+   cursor: pointer;
+}
+.settingSubmit:focus{
+   outline: none;
+}
